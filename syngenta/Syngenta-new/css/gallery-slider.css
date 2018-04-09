@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+img {
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+body {
+	background: #C0C0C0;
+}
+
+.wrapper-fluid {
+	max-width: 1360px;
+	height: 100%;
+	margin: 10% auto 0;
+	width: 100%;
+	padding: 20px 100px;
+	/*outline: 1px solid green;*/
+}
+.gl-slider {
+	position: relative;
+	background: transparent;
+}
+.gl-slider__list-wrap {
+	overflow: hidden;
+	/*outline: 1px solid red;*/
+}
+.gl-slider__list {
+	list-style-type: none;
+	position: relative;
+}
+.gl-slider__item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	opacity: 0;
+}
+.gl-slider__item:first-child {opacity: 1;}
+.gl-slider__item.active {
+	z-index: 1;
+	position: relative;
+}
+.gl-slider__item.inslide {
+	z-index: 2;
+}
+.gl-slider__pic {
+	width: 100%;
+	display: block;
+}
+.gl-slider__arrow {
+	background: url(../img/big-arrows.png) no-repeat;
+	/*background-color: rgba(0,0,0,0.5);*/
+	width: 23px;
+	height: 76px;
+	position: absolute;
+	cursor: pointer;
+	top: 40%;
+}
+.gl-slider__arrow_prev {
+	background-position: 0 0;
+	left: -50px;
+}
+.gl-slider__arrow_next {
+	background-position: -24px 0;
+	right: -50px;
+}
+.gl-slider__dots-slider {
+	margin-top: 20px;
+}
+.dots-slider {
+	position: relative;
+	padding: 0 25px;
+}
+.dots-slider__list-wrap {
+	overflow: hidden;
+}
+.dots-slider__list {
+	display: block;
+    font-size: 0;
+    list-style-type: none;
+    width: 9999px;
+    -webkit-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    transition: transform 0.4s;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+}
+.dots-slider__item {
+	display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dots-slider__item_active {}
+
+.gl-slider__dots {}
+.gl-slider__dots-item {}
+.gl-slider__dots-item.active {
+	opacity: 0.5;
+	/*transform: scale(1.2);*/
+}
+.gl-slider__dots-link {}
+.gl-slider__dots-pic {}
+.dots-slider__arrow {
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	width: 25px;
+	height: 100%;
+	min-height: 32px;
+	background: url(../img/small-arrows.png) no-repeat;
+	background-color: rgba(113,113,113,1);
+}
+.dots-slider__arrow_prev {
+	background-position: 5px 50%;;
+	left: 0;
+}
+.dots-slider__arrow_next {
+	background-position: -43px 50%;
+	right: 0;
+}

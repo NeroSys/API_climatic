@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="SYNGENTA-DEV">
+    <serverData>
+      <paths name="SYNGENTA-DEV">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$/Syngenta-new" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/Syngenta-new/fw/backend/runtime" />
+            <excludedPath local="true" path="$PROJECT_DIR$/Syngenta-new/fw/frontend/runtime" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

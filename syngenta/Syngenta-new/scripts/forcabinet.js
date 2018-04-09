@@ -1,0 +1,27 @@
+var
+    s1  = new Selectblock('#select-block_1')
+    ,s2  = new Selectblock('#select-block_2')
+    ,s3  = new Selectblock('#select-block_3')
+    ,s4  = new Selectblock('#select-block_4')
+    ,s5  = new Selectblock('#select-block_5')
+    ,s6  = new Selectblock('#select-block_6')
+    ,s7  = new Selectblock('#select-block_7')
+    ,s71  = new Selectblock('#select-block_71')
+    ,s8  = new Selectblock('#select-block_8')
+    ,s81  = new Selectblock('#select-block_81')
+    ,s9  = new Selectblock('#select-block_9')	,s11 = new Selectblock('#select-block_11')	,s23 = new Selectblock('#select-block_23')
+    ,s24 = new Selectblock('#select-block_24')
+    ,s25 = new Selectblock('#select-block_25') ///??????????????????
+    ,s26 = new Selectblock('#select-block_26')	,s28 = new Selectblock('#select-block_28')
+    ,s29 = new Selectblock('#select-block_29')
+    ,s30 = new Selectblock('#select-block_30')	,s33 = new Selectblock('#select-block_33')
+    ,s34 = new Selectblock('#select-block_34')	,s39 = new Selectblock('#select-block_39')	,s54 = new Selectblock('#select-block_54')
+    ,s55 = new Selectblock('#select-block_55')	,s57 = new Selectblock('#select-block_57')
+    ,s58 = new Selectblock('#select-block_58')
+    ,s59 = new Selectblock('#select-block_59')
+    ,s60 = new Selectblock('#select-block_60')
+    ,s61 = new Selectblock('#select-block_61')
+    ,s40 = new Selectblock('#select-block_40')
+    ,s56 = new Selectblock('#select-block_56')
+
+    ,s62 = new Selectblock('#select-block_62')	,t2 = new Tabs('#tabs_2')	;

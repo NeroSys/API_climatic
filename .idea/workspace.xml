@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c566d3a-4170-403b-ba05-203294e7c45e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/DB/syngenta_new.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/cabinet/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/cabinet/controllers/CabinetController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/cabinet/models/cabinet/Cabinet.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/cabinet/models/cabinet/search/SearchCabinet.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/cabinet/views/cabinet/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/cabinet/views/cabinet/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/cabinet/views/cabinet/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/cabinet/views/cabinet/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/cabinet/views/cabinet/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/cabinet/views/cabinet/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/controllers/ContactsController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/controllers/MessagesController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/models/contacts/Contacts.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/models/contacts/search/SearchContacts.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/models/messages/Messages.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/models/messages/search/SearchMessages.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/views/contacts/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/views/contacts/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/views/contacts/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/views/contacts/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/views/contacts/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/views/contacts/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/views/messages/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/views/messages/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/views/messages/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/views/messages/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/views/messages/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/contacts/views/messages/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/controllers/AboutController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/controllers/MissionController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/models/about/About.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/models/about/search/SearchAbout.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/models/mission/Mission.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/models/mission/search/SearchMission.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/views/about/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/views/about/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/views/about/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/views/about/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/views/about/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/views/about/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/views/mission/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/views/mission/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/views/mission/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/views/mission/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/views/mission/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/holding/views/mission/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/mail/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/mail/controllers/MailController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/mail/controllers/MessagesController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/mail/models/mail/Mail.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/mail/models/mail/search/SearchMail.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/mail/views/mail/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/mail/views/mail/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/mail/views/mail/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/mail/views/mail/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/mail/views/mail/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/mail/views/mail/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/controllers/MainPageController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/controllers/RegisterParamsController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/controllers/ValidateController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/models/mainpage/Mainpage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/models/mainpage/search/SearchMainpage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/models/params/search/SearchUserParams.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/views/main-page/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/views/main-page/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/views/main-page/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/views/main-page/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/views/main-page/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/views/main-page/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/views/register-params/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/views/register-params/_form1.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/views/register-params/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/views/register-params/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/views/register-params/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/views/register-params/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/main/views/register-params/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/controllers/NewsController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/controllers/NewsItemsController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/controllers/SmiController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/controllers/SmiItemsController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/models/news/NewsPage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/models/news/search/SearchNewsPage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/models/news_items/NewsItems.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/models/news_items/search/SearchNewsItems.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/models/smi/SmiPage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/models/smi/search/SearchMediaPage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/models/smi_items/SmiItems.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/models/smi_items/search/SearchSmiItems.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/news-items/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/news-items/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/news-items/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/news-items/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/news-items/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/news-items/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/news/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/news/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/news/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/news/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/news/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/news/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/smi-items/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/smi-items/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/smi-items/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/smi-items/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/smi-items/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/smi-items/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/smi/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/smi/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/smi/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/smi/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/smi/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/pressroom/views/smi/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/controllers/UserController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/controllers/UserProfilesController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/controllers/UsersForAdminController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/models/SearchUserProfiles.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/models/SearchUsers.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/models/SearchUsersForAdmin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/models/Users.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/models/Usersnew.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user-profiles/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user-profiles/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user-profiles/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user-profiles/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user-profiles/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user-profiles/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user/_form_add.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user/_form_create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user/add.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user/create_admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/user/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/users-for-admin/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/users-for-admin/_form_add.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/users-for-admin/_form_create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/users-for-admin/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/users-for-admin/add.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/users-for-admin/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/users-for-admin/create_admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/users-for-admin/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/users-for-admin/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resu/views/users-for-admin/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/controllers/UserController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/models/SearchUsers.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/models/Users.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/views/user/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/views/user/_form_add.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/views/user/_form_create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/views/user/_form_create_admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/views/user/_form_update_admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/views/user/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/views/user/add.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/views/user/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/views/user/create_admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/views/user/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/views/user/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/resuadmin/views/user/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/controllers/AreasNamesController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/controllers/CulturesNamesController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/controllers/DirectorareasNamesController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/controllers/ManagerareasNamesController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/controllers/RecommendationsNamesController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/controllers/RegionsNamesController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/controllers/StationsNamesController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/controllers/ThreatsNamesController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/models/search/SearchAreas.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/models/search/SearchCultures.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/models/search/SearchDirectorareas.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/models/search/SearchManagerareas.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/models/search/SearchRecommendations.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/models/search/SearchRegions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/models/search/SearchStations.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/models/search/SearchThreats.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/areas-names/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/areas-names/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/areas-names/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/areas-names/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/areas-names/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/areas-names/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/cultures-names/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/cultures-names/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/cultures-names/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/cultures-names/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/cultures-names/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/cultures-names/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/directorareas-names/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/directorareas-names/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/directorareas-names/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/directorareas-names/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/directorareas-names/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/directorareas-names/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/managerareas-names/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/managerareas-names/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/managerareas-names/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/managerareas-names/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/managerareas-names/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/managerareas-names/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/recommendations-names/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/recommendations-names/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/recommendations-names/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/recommendations-names/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/recommendations-names/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/recommendations-names/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/regions-names/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/regions-names/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/regions-names/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/regions-names/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/regions-names/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/regions-names/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/stations-names/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/stations-names/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/stations-names/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/stations-names/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/stations-names/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/stations-names/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/threats-names/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/threats-names/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/threats-names/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/threats-names/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/threats-names/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tables/views/threats-names/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tablesclone/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tablesclone/controllers/ManagerareasNamesController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tablesclone/models/search/SearchManagerareas.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tablesclone/views/managerareas-names/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tablesclone/views/managerareas-names/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tablesclone/views/managerareas-names/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tablesclone/views/managerareas-names/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tablesclone/views/managerareas-names/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/tablesclone/views/managerareas-names/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/controllers/AgreementController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/controllers/ExplainfieldController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/models/agreement/Agreement.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/models/agreement/search/SearchAgreement.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/models/explainfield/Explainfield.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/models/explainfield/search/SearchExplainfield.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/views/agreement/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/views/agreement/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/views/agreement/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/views/agreement/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/views/agreement/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/views/agreement/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/views/explainfield/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/views/explainfield/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/views/explainfield/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/views/explainfield/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/views/explainfield/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts/views/explainfield/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts1/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts1/controllers/ExplainfieldController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts1/models/mainpage/Explainfield.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts1/models/mainpage/search/SearchExplainfield.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts1/views/explainfield/_form.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts1/views/explainfield/_search.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts1/views/explainfield/create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts1/views/explainfield/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts1/views/explainfield/update.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/modules/texts1/views/explainfield/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/runtime/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/views/layouts/content.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/views/layouts/header.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/views/layouts/left.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/views/layouts/main-login.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/views/layouts/main.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/views/site/error.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/views/site/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/views/site/login.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/newstations.php" afterPath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/newstations.php" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/station.php" afterPath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/station.php" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stations.php" afterPath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stations.php" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stations24.php" afterPath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stations24.php" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stationsaddonly.php" afterPath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stationsaddonly.php" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stationsawake.php" afterPath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stationsawake.php" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/assets/AboutAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/assets/AppAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/assets/CabinetAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/assets/ContactsAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/assets/ForecastAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/assets/NewsItemAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/assets/NewsPageAllAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/assets/NewsPageAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/assets/RegisterAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/assets/RegisterNoHideAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/assets/SmiItemAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/assets/SmiPageAllAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/assets/SmiPageAsset.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/components/Alert.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/config/bootstrap.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/config/main-local.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/config/main.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/config/params-local.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/config/params.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/controllers/SiteController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/models/ContactForm.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/models/PasswordResetRequestForm.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/models/ResetPasswordForm.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/models/SignupForm.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/cabinet/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/cabinet/controllers/DefaultController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/cabinet/controllers/ForfieldController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/cabinet/controllers/ValidateController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/cabinet/models/cabinet/Cabinet.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/cabinet/models/cabinet/search/SearchCabinet.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/cabinet/views/default/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/cabinet/views/default/regions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/cabinet/views/default/regions1.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/contacts/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/contacts/controllers/DefaultController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/contacts/controllers/ValidateController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/contacts/models/contacts/Contacts.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/contacts/models/contacts/search/SearchContacts.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/contacts/views/default/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/forecast/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/forecast/controllers/DefaultController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/forecast/controllers/H24Controller.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/forecast/controllers/StationsController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/forecast/controllers/ValidateController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/forecast/views/default/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/forecast/views/default/indexguest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/forecast/views/default/regions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/forecast/views/default/regions1.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/forecast/views/h24/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/forecast/views/stations/indexguest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/holding/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/holding/controllers/AboutController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/holding/models/about/About.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/holding/models/about/search/SearchAbout.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/holding/views/about/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/controllers/AuthController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/controllers/DefaultController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/controllers/EditController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/controllers/PasswordController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/controllers/RegisterController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/controllers/TieController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/controllers/ValidateController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/models/agreement/Agreement.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/models/explainfield/Explainfield.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/models/mainpage/Mainpage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/models/mainpage/Rabotaet.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/views/default/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/views/default/reguser.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/views/edit/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/views/password/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/views/register/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/views/tie/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/main/views/validate/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/Modules.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/controllers/ArticlesController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/controllers/NewsController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/models/news/NewsPage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/models/news/search/SearchNewsPage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/models/news_items/NewsItems.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/models/news_items/search/SearchNewsItems.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/models/smi/SmiPage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/models/smi/search/SearchMediaPage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/models/smi_items/SmiItems.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/models/smi_items/search/SearchSmiItems.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/models/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/views/articles/allnews.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/views/articles/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/views/articles/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/views/news/allnews.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/views/news/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/views/news/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/views/smi/allsmi.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/views/smi/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/modules/pressroom/views/smi/view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/runtime/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/views/layouts/footer.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/views/layouts/header.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/views/layouts/menu.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/syngenta/Syngenta-new/fw/frontend/views/layouts/site_layout.php" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/syngenta/Syngenta-new" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/newstations.php" />
+        <option value="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/station.php" />
+        <option value="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stations24.php" />
+        <option value="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stationsawake.php" />
+        <option value="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stationsaddonly.php" />
+        <option value="$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stations.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="45" />
+    <option name="width" value="1352" />
+    <option name="height" value="671" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="syngenta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="syngenta" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c566d3a-4170-403b-ba05-203294e7c45e" name="Default" comment="" />
+      <created>1523282204076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523282204076</updated>
+      <workItem from="1523282210364" duration="696000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="696000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="45" width="1368" height="678" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924694" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/syngenta/Syngenta-new" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/backend/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/common/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/controllers/soap/nusoap/class.nusoap_base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/controllers/RbacinitController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-624">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/controllers/UserlisttomailController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/nusoap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stationsawake.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1690">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <marker date="1523282845927" expanded="true" signature="1404:1431" ph="select `name... stations" />
+            <marker date="1523282845927" expanded="true" signature="1659:1715" ph="UPDATE `stations`... " />
+            <marker date="1523282845927" expanded="true" signature="2571:2633" ph="select `id`,... threats" />
+            <marker date="1523282845927" expanded="true" signature="2925:2999" ph="select `id`,... stations" />
+            <marker date="1523282845927" expanded="true" signature="3260:3305" ph="select `id` cultures" />
+            <marker date="1523282845927" expanded="true" signature="3475:3542" ph="select `ch` threats" />
+            <marker date="1523282845927" expanded="true" signature="4533:4631" ph="insert into stations_threats" />
+            <marker date="1523282845927" expanded="true" signature="5087:5160" ph="insert into stations_cultures" />
+            <marker date="1523282845927" expanded="true" signature="5303:5351" ph="UPDATE `stations`... " />
+            <marker date="1523282845927" expanded="true" signature="7103:7159" ph="UPDATE `stations`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stationsaddonly.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <marker date="1523282846051" expanded="true" signature="1177:1204" ph="select `name... stations" />
+            <marker date="1523282846051" expanded="true" signature="1740:1861" ph="insert into stations" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/newstations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/station.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="107" lean-forward="false" selection-start-line="6" selection-start-column="107" selection-end-line="6" selection-end-column="107" />
+          <folding>
+            <marker date="1523282846119" expanded="true" signature="1479:1506" ph="select `name... stations" />
+            <marker date="1523282846119" expanded="true" signature="1732:1788" ph="UPDATE `stations`... " />
+            <marker date="1523282846119" expanded="true" signature="1987:2108" ph="insert into stations" />
+            <marker date="1523282846119" expanded="true" signature="2440:2496" ph="UPDATE `stations`... " />
+            <marker date="1523282846119" expanded="true" signature="2586:2735" ph="select `id`,... threats" />
+            <marker date="1523282846119" expanded="true" signature="2687:2734" ph="select `id` cultures" />
+            <marker date="1523282846119" expanded="true" signature="2875:2949" ph="select `id`,... stations" />
+            <marker date="1523282846119" expanded="true" signature="3945:4043" ph="insert into stations_threats" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syngenta/Syngenta-new/fw/console/forcron/stations24.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <marker date="1523282846239" expanded="true" signature="1370:1397" ph="select `name... stations" />
+            <marker date="1523282846239" expanded="true" signature="1623:1679" ph="UPDATE `stations`... " />
+            <marker date="1523282846239" expanded="true" signature="1931:2052" ph="insert into stations" />
+            <marker date="1523282846239" expanded="true" signature="2386:2442" ph="UPDATE `stations`... " />
+            <marker date="1523282846239" expanded="true" signature="2531:2593" ph="select `id`,... threats" />
+            <marker date="1523282846239" expanded="true" signature="2885:2959" ph="select `id`,... stations" />
+            <marker date="1523282846239" expanded="true" signature="3218:3263" ph="select `id` cultures" />
+            <marker date="1523282846239" expanded="true" signature="3431:3498" ph="select `ch` threats" />
+            <marker date="1523282846239" expanded="true" signature="5088:5188" ph="insert into stations_threats24" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

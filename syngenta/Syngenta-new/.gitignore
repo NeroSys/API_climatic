@@ -1,0 +1,8 @@
+/fw/common/config/main-local.php
+assets/*
+!assets/.gitignore
+protected/runtime/*
+!protected/runtime/.gitignore
+protected/data/*.db
+themes/classic/views/
+/fw/vendor

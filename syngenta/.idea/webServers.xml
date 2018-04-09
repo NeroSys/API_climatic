@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e264ff1e-aca8-40f7-8ae4-8af30002bebc" name="SYNGENTA-DEV" url="http://svh2.mirohost.net">
+        <fileTransfer host="svh2.mirohost.net" port="21" rootFolder="/syngenta-new.sproduccion.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" maxConnections="1" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+AddDefaultCharset utf-8
+#php_value error_reporting E_NONE
+
+RewriteEngine on
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+RewriteRule ^ - [L]
+
+RewriteRule . index.php
+

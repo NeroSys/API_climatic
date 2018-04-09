@@ -1,0 +1,98 @@
+Index: fw/frontend/modules/pressroom/views/media/index.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- fw/frontend/modules/pressroom/views/media/index.php	(revision )
++++ fw/frontend/modules/pressroom/views/media/index.php	(revision )
+@@ -12,7 +12,7 @@
+                 <?$itemLangData = $item->langData?>
+                 <?$itemMainIMG = $item->pageImg;?>
+ 
+-            <li class="main-news__media-item" onClick="getpictures(<?=$item->id?>);"><a href="#" class="article">
++            <li class="main-news__media-item"><a href="#" class="article">
+     <?if(!empty($itemMainIMG['news-main-img']->file)){?>
+                     <div class="article__img-wrap"><img src="<?=$itemMainIMG['media-main-img']->file?>" class="article__img"/></div>
+     <?}?>
+@@ -34,8 +34,22 @@
+             <div class="album-preview-popup">
+                 <div id="album-slider_1" class="album-slider">
+                     <div class="album-slider__list-wrap">
+-                        <ul id="albumsliderul" class="album-slider__list">
+-
++                        <ul class="album-slider__list">
++                            <li class="album-slider__item active"><img src="/img/album-slide-1.jpg" alt="" class="album-slider__pic"/></li>
++                            <li class="album-slider__item"><img src="/img/album-slide-2.jpg" alt="" class="album-slider__pic"/>
++                            </li>
++                            <li class="album-slider__item"><img src="/img/album-slide-3.jpg" alt="" class="album-slider__pic"/>
++                            </li>
++                            <li class="album-slider__item"><img src="/img/album-slide-4.jpg" alt="" class="album-slider__pic"/>
++                            </li>
++                            <li class="album-slider__item"><img src="/img/album-slide-1.jpg" alt="" class="album-slider__pic"/>
++                            </li>
++                            <li class="album-slider__item"><img src="/img/album-slide-2.jpg" alt="" class="album-slider__pic"/>
++                            </li>
++                            <li class="album-slider__item"><img src="/img/album-slide-3.jpg" alt="" class="album-slider__pic"/>
++                            </li>
++                            <li class="album-slider__item"><img src="/img/album-slide-4.jpg" alt="" class="album-slider__pic"/>
++                            </li>
+                         </ul>
+                     </div>
+                     <div class="album-slider__dots-slider">
+@@ -56,44 +70,33 @@
+ </div>
+ 
+ 
++
++
+ <?=$this->render('//layouts/footer')?>
+ 
+ <?php $script = <<< JS
+ 
+  var lang = $("html").attr('lang');
+ 
+-function getXMLHttpRequest11()
+-{
+-    if (window.XMLHttpRequest) {
+-        return new XMLHttpRequest();
+-    }
+ 
+-    return new ActiveXObject('Microsoft.XMLHTTP');
+-};
+-
+-
+ function getpictures(idgalery){
+-    request = getXMLHttpRequest11();
+-    request.onreadystatechange = function () {
+ 
+-        if (request.readyState == 4) {
++ $.ajax({
++        url:'/'+lang+'/pressroom/media/gallery.html'
++        , type:'POST'
++        , data:'id=' + idgalery
++        , success: function() {
+ 
++        }
++    });
+ 
+-            document.getElementById('albumsliderul').innerHTML = request.responseText;
+ 
+ 
+-            // $('#insert').fadeIn(1600);
+-
+-
+-        }
++    }
+-    };
+-    request.open('GET', '/'+lang+'/pressroom/media/gallery.html'+'id='+idgalery, true);
+-    request.send(null);
+ 
+-    }
+ 
+ 
+-
+ JS;
+ $this->registerJs($script, yii\web\View::POS_END );
++
+ ?>
+\ No newline at end of file
